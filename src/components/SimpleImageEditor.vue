@@ -41,7 +41,7 @@ export default {
     width: { type: Number, default: 500, required: true },
     height: { type: Number, default: 500, required: true },
     imageSrc: { type: String, default: null },
-    imageObj: { type: Image, default: null },
+    imageObj: { type: null, default: null },
     isResizeMode: { type: Boolean, default: false },
     isCropMode: { type: Boolean, defaul: false },
     isFixedCrop: { type: Boolean, defaul: false },
